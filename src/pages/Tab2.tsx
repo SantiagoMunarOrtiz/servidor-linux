@@ -44,13 +44,13 @@ const AddProduct: React.FC = () => {
           <IonButtons slot="start">
             <IonMenuButton />
           </IonButtons>
-          <IonTitle>Add Product</IonTitle>
+          <IonTitle>Buscar en terminal</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent className="ion-padding">
         {/*---------------------- Formulario para capturar detalles del producto----------------------------------------------------- */}
         <IonItem>
-          <IonLabel position="stacked">Product Name</IonLabel>
+          <IonLabel position="stacked">Nombre de la gestion</IonLabel>
           <IonInput
             value={productName}
             placeholder="Enter product name"
@@ -59,7 +59,7 @@ const AddProduct: React.FC = () => {
         </IonItem>
 
         <IonItem>
-          <IonLabel position="stacked">Product Description</IonLabel>
+          <IonLabel position="stacked">Carpeta segura</IonLabel>
           <IonTextarea
             value={productDescription}
             placeholder="Enter product description"
@@ -68,7 +68,7 @@ const AddProduct: React.FC = () => {
         </IonItem>
 
         <IonItem>
-          <IonLabel position="stacked">Product Price</IonLabel>
+          <IonLabel position="stacked">Crear codigo</IonLabel>
           <IonInput
             value={productPrice}
             type="number"
@@ -79,7 +79,7 @@ const AddProduct: React.FC = () => {
 
         {/*------------------Botón para tomar una foto ----------------------------------*/}
         <IonButton expand="full" onClick={takePicture}>
-          Toma una foto de tu producto
+          Verificar si Eres tu
         </IonButton>
 
         {/*------------------------------ Mostrar la imagen capturada--------------------------*/}
@@ -87,7 +87,7 @@ const AddProduct: React.FC = () => {
 
         {/* botxn*/}
         <IonButton expand="full" color="success" onClick={addProduct} style={{ marginTop: '20px' }}>
-          Agrega producto
+          buscar informacion
         </IonButton>
       </IonContent>
     </IonPage>

@@ -41,9 +41,9 @@ const Wishlist: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar color="success">
-          <IonTitle>Wishlist</IonTitle>
+          <IonTitle>Lista preferida de dependencias</IonTitle>
           <IonButton slot="end" onClick={() => history.push('/list')}>
-            Back to Products
+            Volver al menu
           </IonButton>
         </IonToolbar>
       </IonHeader>

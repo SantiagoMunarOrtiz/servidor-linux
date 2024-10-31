@@ -16,7 +16,7 @@ const Menu: React.FC = () => {
         <IonMenu contentId="main">
           <IonHeader>
             <IonToolbar color={'secondary'}>
-              <IonTitle>Menu</IonTitle>
+              <IonTitle>Sistema operativo </IonTitle>
             </IonToolbar>
           </IonHeader>
           <IonContent>

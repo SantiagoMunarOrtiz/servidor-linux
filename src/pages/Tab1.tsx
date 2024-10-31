@@ -64,7 +64,7 @@ const Tab1: React.FC = () => {
           <IonButtons slot="start">
             <IonMenuButton />
           </IonButtons>
-          <IonTitle>Lista de usuario</IonTitle>
+          <IonTitle>Admin y usuarios del sistema</IonTitle>
         </IonToolbar>
 
         <IonToolbar color={'success'}>
@@ -125,7 +125,7 @@ const Tab1: React.FC = () => {
                   {/* ventas */}
                   {user.sales && user.sales.length > 0 ? (
                     <p>
-                      <strong>Ventas realizadas:</strong> {user.sales.length}
+                      <strong>Usuarios Eliminados</strong> {user.sales.length}
                       {/*detalless */}
                       <ul>
                         {user.sales.map((sale: any, index: number) => (
@@ -134,7 +134,7 @@ const Tab1: React.FC = () => {
                       </ul>
                     </p>
                   ) : (
-                    <p>No tiene ventas</p>
+                    <p>Usuarios</p>
                   )}
                 </IonLabel>
               </IonItem>
